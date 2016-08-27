@@ -1,0 +1,117 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background: none;
+	padding-top: 60px;
+	height: 100vh;
+	background-image: url(../img/white_texture.png);
+}
+
+.template {
+	position: relative;
+	background: white;
+	padding-bottom: 20px;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 2px 2px 4px #d5d5d5;
+}
+
+.container {
+	max-width: 690px;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 4em;
+}
+
+
+#app-control {
+	border-bottom: 5px solid #f6f6f6;
+}
+
+/******** BUTTONS **********/
+button {
+	margin-left: .5em;
+	font-size: .8em;
+	border: none;
+	width: 8em;
+	margin-top: 2.5em;
+	text-align: center;
+	font-weight: 600;
+	padding: 1em;
+	border-radius: 5px;
+	background: #96e893;
+}
+
+button:hover {
+	color: #96e893;
+	text-decoration: none;
+	cursor: pointer;
+	background: #313131;
+}
+
+/************ BOX CSS ***********/
+
+.box {
+	padding-top: .5em;
+	width: 100%;
+	text-align: center;
+	font-size: 3em;
+	vertical-align: middle;
+	margin: 0 auto;
+	transition: all .25s linear;
+}
+
+#message {
+	font-family: "Raleway", sans-serif;
+	padding-top: .15em;
+	font-size: 3em;
+	line-height: 1.8em;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 0 0 4px 4px;
+}
+
+#player-score, #computer-score {
+	color: white;
+	font-size: .25em;
+}
+
+.points {
+	font-size: 2em;
+}
+.score {
+	width: 100%;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	border-radius: 0 0 4px 4px;
+	z-index: 111;
+	position: relative;
+	background: #f6f6f6;
+}
+.score__winner,
+.game__winner {
+	background: #96e893;
+}
+
+.game__winner {
+	font-size: 2em;
+}
+
+.score p {
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 600px) {
+	.box {
+		font-size: 2em;
+	}
+	button {
+		width: 4em;
+	}
+}
